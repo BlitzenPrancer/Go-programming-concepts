@@ -9,7 +9,7 @@ type DayOfWeek int
 // constants of type DayOfWeek
 const (
 	// sunday DayOfWeek = 1 << iota - this assigns constants exponential value
-	sunday DayOfWeek = 1 + iota
+	sunday DayOfWeek = 1 + iota // starts from 1
 	monday
 	tuesday
 	wednesday
@@ -19,5 +19,6 @@ const (
 )
 
 func main() {
+	fmt.Println(sunday)
 	fmt.Println(tuesday)
 }
