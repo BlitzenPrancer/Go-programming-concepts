@@ -19,8 +19,8 @@ func main() {
 	c = 32
 	// explicit type conversion
 	f = Farenheit(c)
-	fmt.Println(f)
 	fmt.Println(d)
+	fmt.Println(f)
 	// testing type aliases
 	c = 22
 	f = 234
